@@ -1,4 +1,4 @@
-var POST_URL = "WEBBHOOK URL";
+var POST_URL = "// Insert Webhook URL //";
 
 function onSubmit(e) {
     var form = FormApp.getActiveForm();
@@ -44,11 +44,12 @@ function onSubmit(e) {
         "payload": JSON.stringify({
             "content": "‌",
             "embeds": [{
-                "title": "Some nice title here",
-              "color": 33023, // This is optional, you can look for decimal colour codes at https://www.webtoolkitonline.com/hexadecimal-decimal-color-converter.html
+                "title": "SkyIsland Ideas Form",
+                "color": 65515
                 "fields": items,
+                "description": "<@&860516510819811358>"
                 "footer": {
-                    "text": "Some footer here"
+                  "text": "Gforms to Discord"
                 }
             }]
         })
