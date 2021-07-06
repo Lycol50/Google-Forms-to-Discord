@@ -45,9 +45,9 @@ function onSubmit(e) {
             "content": "‌",
             "embeds": [{
                 "title": "SkyIsland Ideas Form",
-                "color": 65515
+                "color": 65515,
                 "fields": items,
-                "description": "<@&860516510819811358>"
+                "description": "<@&860516510819811358>",
                 "footer": {
                   "text": "Gforms to Discord"
                 }
